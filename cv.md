@@ -8,18 +8,18 @@
 * **LinkedIn:** https://www.linkedin.com/in/oleg-sokolovsky/
 
 ###About Myself:
-__Highly motivated junior web developer with strong self-organizing and time management skills__
-__I like to write code and see the result of my work.__
-__My goal is to gain new knowledge in front-end development.__
+_Highly motivated junior web developer with strong self-organizing and time management skills_
+_I like to write code and see the result of my work._
+_My goal is to gain new knowledge in front-end development._
 
 ###Skills and Proficiency:
-* *Languages:*
+* **Languages:**
   * JavaScript (Basic)
   * PHP (Basic)
   * HTML 
   * CSS 
   * Visual Foxpro
-* *Technologies/APIs/, Methodologies:*
+* **Technologies/APIs/, Methodologies:**
   * CSS/CSS3
   * Git, Bitbucket, GitHub
   * Typescript
@@ -27,7 +27,7 @@ __My goal is to gain new knowledge in front-end development.__
   * HTML5
   * Bootstrap4
   * Angular Material 
-* *Tools, application platforms and other*
+* **Tools, application platforms and other**
   * MS Office 
   * Online Google Office
   * PHPStorm
@@ -62,14 +62,14 @@ function revrot(str, sz) {
 ```
 
 ###Education and courses:
-* **__Yanka Kupala State University of Grodno: 1992-1997__**
-  * __Bachelor's Degree, Mathematic. Teacher of Mathematics and Physics.__
+* **Yanka Kupala State University of Grodno: 1992-1997**
+  * _Bachelor's Degree, Mathematic. Teacher of Mathematics and Physics._
 * **JavaScript https://learn.javascript.ru/**
 * **TypeScript https://metanit.com/web/typescript/**
 
 ###Experience:
-**__Junior FrontEnd Developer.__** 
-__I have experience in JS+TS+Anular and Frontend development in currently working project.__
+**_Junior FrontEnd Developer._** 
+_I have experience in JS+TS+Anular and Frontend development in currently working project._
 
 ###Languages:
 * Russian - Native

@@ -1,18 +1,19 @@
-##Oleg Sokolovsky
+#Oleg Sokolovsky
 
-###Contact information:
+##Contact information:
 * **Location:** Grodno, Belarus
 * **Phone:** +375 29 315-82-99
 * **Email:** martiniks.so@gmail.com
 * **GitHub:** Martiniks
 * **LinkedIn:** https://www.linkedin.com/in/oleg-sokolovsky/
 
-###About Myself:
+##About Myself:
+
 _Highly motivated junior web developer with strong self-organizing and time management skills_
 _I like to write code and see the result of my work._
 _My goal is to gain new knowledge in front-end development._
 
-###Skills and Proficiency:
+##Skills and Proficiency:
 * **Languages:**
   * JavaScript (Basic)
   * PHP (Basic)
@@ -37,7 +38,7 @@ _My goal is to gain new knowledge in front-end development._
   * Windows (95,98,2000,XP,7,10)
   * Linux (Ubuntu)
 
-###Code example:
+##Code example:
 
 ```javascript
 function revrot(str, sz) {
@@ -61,17 +62,18 @@ function revrot(str, sz) {
 }
 ```
 
-###Education and courses:
+##Education and courses:
 * **Yanka Kupala State University of Grodno: 1992-1997**
   * _Bachelor's Degree, Mathematic. Teacher of Mathematics and Physics._
 * **JavaScript https://learn.javascript.ru/**
 * **TypeScript https://metanit.com/web/typescript/**
 
-###Experience:
+##Experience:
+
 **_Junior FrontEnd Developer._** 
 _I have experience in JS+TS+Anular and Frontend development in currently working project._
 
-###Languages:
+##Languages:
 * Russian - Native
 * Ukrainian - А1 – начальный
 * Polish - В1 – средний

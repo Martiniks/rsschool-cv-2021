@@ -75,7 +75,8 @@ _I have experience in JS+TS+Anular and Frontend development in currently working
 
 ##Languages:
 * Russian - Native
-* Ukrainian - А1 – начальный
-* Polish - В1 – средний
-* English -  A2 (I have some speaking practice in Germany)
+* Ukrainian - А1 – Elementary
+* Polish - В1 – Intermediate
+* English -  A2 -Pre-Intermediate 
+  (I have some speaking practice in Germany)
 

@@ -129,13 +129,13 @@ div.work-date {
 
 .education p {
     text-align: left;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     margin: 1px;
 }
 
 .code-example p {
     text-align: justify;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     margin: 0.5rem;
 }
 
@@ -210,7 +210,6 @@ footer .github-icon {
         flex-flow: row wrap;
         justify-content: center;
         align-items: stretch;
-        padding: 0.5rem;
     }
 
     header div.column-right {
@@ -238,7 +237,7 @@ footer .github-icon {
         padding: 0.4rem;
     }
 
-    ul {
+    .column-left ul {
         padding-left: 1rem;
     }
 }
@@ -250,7 +249,7 @@ footer .github-icon {
         padding: 0.2rem;
     }
 
-    ul {
+    .column-left ul {
         padding-left: 0.5rem;
     }
 

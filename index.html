@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,500&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Oleg Sokolovsky CV</title>
 </head>
 <body>
@@ -122,7 +125,7 @@
                     <h3 class="work-head">Web-developer</h3>
                     <div class="work-date">Present</div>
                     <p>Junior Frontend Developer in
-                        <a class="text" href="https://azati.ai/">Azati Software</a>
+                        <a class="text" href="https://azati.ai/">Azati LLC</a>
                     </p>
                 </div>
                 <div>
@@ -151,15 +154,14 @@
                     digits is divisible by 2, reverse that chunk; otherwise rotate it to the left by one position.
                     Put together these modified chunks and return the result as a string.
                 </p>
-                <pre>
-                <code>
+                <pre><code>
 function revrot(str, sz) {
-  if (sz <= 0 || str == '' || sz > str.length) {
+  if (sz &lt;= 0 || str == '' || sz > str.length) {
     return 0;
   }
   let i = 0;
   let arr = [];
-  while (sz <= str.length) {
+  while (sz &lt;= str.length) {
     arr[i] = str.slice(0, sz);
     str = str.slice(sz);
     i += 1;
@@ -173,11 +175,8 @@ function revrot(str, sz) {
     return elem.slice(1)+elem[0];
   }).join('');
 }
-
-                </code>
-              </pre>
+                </code></pre>
             </section>
-
         </div>
     </main>
     <footer>

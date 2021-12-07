@@ -1,0 +1,256 @@
+:root {
+    --dark-gray-color: #505050;
+    --primary: rgba(37, 107, 127, 0.6);
+    --accent: orange;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 20px auto;
+    max-width: 60rem;
+    min-width: 250px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    line-height: 1.3;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    padding-top: 0.5rem;
+}
+
+hr {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+header,
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-right: 0.5rem;
+}
+
+header div.column-right {
+    padding-top: 5rem;
+}
+
+
+.avatar {
+    margin-bottom: 10px;
+    border: 10px solid var(--accent);
+    border-radius: 50% 20% / 10% 40%;
+}
+
+main ul {
+    text-align: start;
+}
+
+.contacts li {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contacts li p {
+    display: inline;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.column-left {
+    width: 40%;
+    min-width: 200px;
+    background-color: white;
+    padding: 2rem 1rem 0 1rem;
+    text-align: center;
+}
+
+.column-right {
+    width: 60%;
+    padding: 5px;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.skills,
+.languages {
+    margin-left: 2rem;
+}
+
+.languages p {
+    margin: 1px;
+}
+
+.language-name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.myself p {
+    text-align: justify;
+    padding: 1rem;
+}
+
+.work-expirience div,
+.work-expirience p {
+    text-align: left;
+    padding: 0.2rem 1rem;
+    margin: 1px;
+}
+
+a.text:active,
+a.text:hover,
+a.text {
+    text-decoration: none;
+    color: #505050;
+}
+
+.work-head {
+    padding: 1px 5px;
+    margin: 0 5px 0 5px;
+}
+
+div.work-date {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 1px 7px;
+    background: var(--accent);
+}
+
+.education p {
+    text-align: left;
+    padding: 0 1rem;
+    margin: 1px;
+}
+
+.code-example p {
+    text-align: justify;
+    padding: 0 1rem;
+    margin: 0.5rem;
+}
+
+pre {
+    padding: 1rem;
+    text-align: start;
+    font-size: 80%;
+    background-color: white;
+    border-radius: 5%;
+    border: 5px solid var(--accent);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+}
+
+footer .github-icon {
+    margin-right: 10px;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 1080px) {
+    .container {
+        max-width: 50rem;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+        padding: 0.5rem;
+    }
+
+    header div.column-right,
+    header div.column-left {
+        background-color: var(--primary);
+    }
+
+    header div.column-left {
+        margin-left: 0.5rem;
+    }
+
+    header div.column-right {
+        padding: 2rem 1rem;
+        text-align: left;
+    }
+
+    .column-left,
+    .column-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    header div.column-right {
+        padding: 1rem 1rem;
+        text-align: center;
+        vertical-align: top;
+        margin-left: 0.5rem;
+    }
+
+    .column-left,
+    .column-right {
+        width: 100%;
+    }
+
+    pre {
+        font-size: 70%;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 460px) {
+
+    pre {
+        font-size: 60%;
+        padding: 0.4rem;
+    }
+
+    .column-left ul {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    pre {
+        font-size: 55%;
+        padding: 0.2rem;
+    }
+
+    .column-left ul {
+        padding-left: 0.5rem;
+    }
+
+}
